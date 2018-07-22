@@ -1,4 +1,4 @@
-update=Wednesday, May 09, 2018 'PMt' 04:34:40 PM
+update=Monday, July 16, 2018 'PMt' 03:22:37 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=project.pretty;project.pretty
@@ -56,5 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=project.pretty/r
+LibName31=project.pretty/Connector
