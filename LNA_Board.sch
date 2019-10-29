@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
-LIBS:Header_Board-cache
-EELAYER 26 0
+LIBS:LNA_Board-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Header_Board-rescue:CONN_02X26 P1
+L LNA_Board-rescue:CONN_02X26-Header_Board-rescue P1
 U 1 1 5AF36949
 P 5650 2100
 F 0 "P1" H 5650 3450 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 5650 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:CONN_02X26 P2
+L LNA_Board-rescue:CONN_02X26-Header_Board-rescue P2
 U 1 1 5AF3698C
 P 7650 2100
 F 0 "P2" H 7650 3450 50  0000 C CNN
@@ -207,7 +207,7 @@ F 3 "" H 8500 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:CONN_02X30 P3
+L LNA_Board-rescue:CONN_02X30-Header_Board-rescue P3
 U 1 1 5B16E67A
 P 9900 2250
 F 0 "P3" H 9900 3800 50  0000 C CNN
@@ -218,7 +218,7 @@ F 3 "" H 9900 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_Coaxial J1
+L LNA_Board-rescue:Conn_Coaxial-conn J1
 U 1 1 5B4CFF90
 P 1100 1950
 F 0 "J1" H 1110 2070 50  0000 C CNN
@@ -229,7 +229,7 @@ F 3 "" H 1100 1950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_Coaxial J2
+L LNA_Board-rescue:Conn_Coaxial-conn J2
 U 1 1 5B4CFFD6
 P 2350 6050
 F 0 "J2" H 2360 6170 50  0000 C CNN
@@ -240,7 +240,7 @@ F 3 "" H 2350 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U14
+L LNA_Board-rescue:LAT-Header_Board-rescue U14
 U 1 1 5B4DFEB1
 P 4200 2900
 F 0 "U14" H 4200 3300 60  0000 C CNN
@@ -251,7 +251,7 @@ F 3 "" H 4200 2900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U4
+L LNA_Board-rescue:LAT-Header_Board-rescue U4
 U 1 1 5B4DFEDE
 P 2400 3200
 F 0 "U4" H 2400 3600 60  0000 C CNN
@@ -262,7 +262,7 @@ F 3 "" H 2400 3200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U3
+L LNA_Board-rescue:LAT-Header_Board-rescue U3
 U 1 1 5B4DFF08
 P 2150 3200
 F 0 "U3" H 2150 3600 60  0000 C CNN
@@ -273,7 +273,7 @@ F 3 "" H 2150 3200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U5
+L LNA_Board-rescue:LAT-Header_Board-rescue U5
 U 1 1 5B4DFF31
 P 2400 4550
 F 0 "U5" H 2400 4950 60  0000 C CNN
@@ -284,7 +284,7 @@ F 3 "" H 2400 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U6
+L LNA_Board-rescue:LAT-Header_Board-rescue U6
 U 1 1 5B4DFF5D
 P 2700 4550
 F 0 "U6" H 2700 4950 60  0000 C CNN
@@ -295,7 +295,7 @@ F 3 "" H 2700 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U7
+L LNA_Board-rescue:LAT-Header_Board-rescue U7
 U 1 1 5B4DFF8C
 P 3000 4550
 F 0 "U7" H 3000 4950 60  0000 C CNN
@@ -306,7 +306,7 @@ F 3 "" H 3000 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U9
+L LNA_Board-rescue:LAT-Header_Board-rescue U9
 U 1 1 5B4DFFBF
 P 3350 4550
 F 0 "U9" H 3350 4950 60  0000 C CNN
@@ -317,7 +317,7 @@ F 3 "" H 3350 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U11
+L LNA_Board-rescue:LAT-Header_Board-rescue U11
 U 1 1 5B4DFFF4
 P 3700 4550
 F 0 "U11" H 3700 4950 60  0000 C CNN
@@ -328,7 +328,7 @@ F 3 "" H 3700 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U13
+L LNA_Board-rescue:LAT-Header_Board-rescue U13
 U 1 1 5B4E002E
 P 4050 4550
 F 0 "U13" H 4050 4950 60  0000 C CNN
@@ -339,7 +339,7 @@ F 3 "" H 4050 4550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U18
+L LNA_Board-rescue:LAT-Header_Board-rescue U18
 U 1 1 5B4E006B
 P 5650 5650
 F 0 "U18" H 5650 6050 60  0000 C CNN
@@ -350,7 +350,7 @@ F 3 "" H 5650 5650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U17
+L LNA_Board-rescue:LAT-Header_Board-rescue U17
 U 1 1 5B4E00A9
 P 5300 6000
 F 0 "U17" H 5300 6400 60  0000 C CNN
@@ -361,7 +361,7 @@ F 3 "" H 5300 6000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:LAT U15
+L LNA_Board-rescue:LAT-Header_Board-rescue U15
 U 1 1 5B4E00EA
 P 4950 6050
 F 0 "U15" H 4950 6450 60  0000 C CNN
@@ -372,7 +372,7 @@ F 3 "" H 4950 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:CBP-1400E+ U2
+L LNA_Board-rescue:CBP-1400E+-Header_Board-rescue U2
 U 1 1 5B4E0132
 P 1900 2050
 F 0 "U2" H 1900 2600 60  0000 C CNN
@@ -383,7 +383,7 @@ F 3 "" H 2250 2000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:CBP-1400E+ U8
+L LNA_Board-rescue:CBP-1400E+-Header_Board-rescue U8
 U 1 1 5B4E0189
 P 3250 3200
 F 0 "U8" H 3250 3750 60  0000 C CNN
@@ -394,7 +394,7 @@ F 3 "" H 3600 3150 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Header_Board-rescue:CBP-1400E+ U16
+L LNA_Board-rescue:CBP-1400E+-Header_Board-rescue U16
 U 1 1 5B4E01DB
 P 5000 4750
 F 0 "U16" H 5000 5300 60  0000 C CNN
@@ -405,7 +405,7 @@ F 3 "" H 5350 4700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:TAMP_1512GLN+ U10
+L LNA_Board-rescue:TAMP_1512GLN+-Header_Board-rescue U10
 U 1 1 5B4E0248
 P 3500 1950
 F 0 "U10" H 3500 2850 60  0000 C CNN
@@ -416,7 +416,7 @@ F 3 "" H 3500 1350 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Header_Board-rescue:TAMP_1512GLN+ U1
+L LNA_Board-rescue:TAMP_1512GLN+-Header_Board-rescue U1
 U 1 1 5B4E02B5
 P 1400 4600
 F 0 "U1" H 1400 5500 60  0000 C CNN
@@ -427,7 +427,7 @@ F 3 "" H 1400 4000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Header_Board-rescue:TAMP_1512GLN+ U12
+L LNA_Board-rescue:TAMP_1512GLN+-Header_Board-rescue U12
 U 1 1 5B4E030F
 P 3800 6050
 F 0 "U12" H 3800 6950 60  0000 C CNN

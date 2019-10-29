@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Header_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/Header_Board-rescue.lib)(options "")(descr ""))
+  (lib (name LNA_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/LNA_Board-rescue.lib)(options "")(descr ""))
 )
